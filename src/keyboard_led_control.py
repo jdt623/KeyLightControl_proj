@@ -20,7 +20,7 @@ def main():
     # Example 1: Set the entire keyboard to red
     print("Setting the entire keyboard to red...")
     red_color = RGBColor(255, 0, 0)
-    keyboard.set_color(red_color)
+    new_func(keyboard, red_color)
     time.sleep(2)
 
     # Example 2: Cycle through a range of colors
